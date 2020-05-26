@@ -1,0 +1,92 @@
+{
+  "Actor": {
+    "types": ["actor"],
+    "templates":{    
+      "background": {
+      "biography": "",
+      "hairColor": "blue"
+    },   
+    "act":{
+      "health": {
+        "value": 10,
+        "min": 0,
+        "max": 10
+      },
+      "power": {
+        "value": 10,
+        "min": 0,
+        "max": 10
+  },
+      "san":{
+      "value": 0,
+        "min": 0,
+        "max": 99
+},
+       "dex":{
+      "value": 0,
+        "min": 0,
+        "max": 10
+        },
+        "mov":{
+      "value": 8,
+        "min": 0,
+        "max": 8
+    },
+         "armor":{
+      "value": 0,
+        "min": 0,
+        "max": 0
+    },
+       "ward":{
+      "value": 0,
+        "min": 0,
+        "max": 0
+    },
+     "indete":{
+      "value": 0,
+        "min": 0,
+        "max": 0
+    },
+    "luck":{
+      "value": 0,
+        "min": 0,
+        "max": 99
+  }
+  }
+},
+"actor":{
+  "templates": ["act"],
+  "biography": "",
+      "attributes": {
+        "level": {
+          "value": 1
+        }
+      }
+  },
+  "Item": {
+    "types": ["item", "feature", "spell"],
+    "templates": {
+      "base": {
+        "description": ""
+      }
+    },
+    "item": {
+      "templates": ["base"],
+      "damage": "",
+      "rof":"",
+      "distance": "",
+      "capacity":"",
+      "malfuncti":99
+    },
+    "feature": {
+      "templates": ["base"]
+    },
+    "spell": {
+      "templates": ["base"],
+      "spellLevel": 1
+     }
+  }
+ }
+}
+   
+
