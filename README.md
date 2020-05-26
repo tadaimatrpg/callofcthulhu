@@ -1,10 +1,16 @@
 # CallofCthulhu(7thEd.) System
 This system is 
-#https://gitlab.com/asacolips-projects/foundry-mods/foundryvtt-system-tutorial/-/tree/master @ Asacolips
+https://gitlab.com/asacolips-projects/foundry-mods/foundryvtt-system-tutorial/-/tree/master @ Asacolips
 based (Boilerplate System).
 This is a system for the [Foundry Virtual Tabletop](http://foundryvtt.com).
 
 # Install
+This is a part of the source that is under development and there is no 
+point in downloading it here.
+The English version is here:
+https://dreamyaziumarand.sakura.ne.jp/callofcthulhu/run/system.json
+Read the Japanese version here:
+https://dreamyaziumarand.sakura.ne.jp/callofcthulhu/run/master/system.json
 It is described in Foundry Virtual Tabletop by reading system.josn written in the URL or 
 putting it in the system file.
 
@@ -35,3 +41,4 @@ It's important for everyone to enjoy playing the game.
 
 Translated with www.DeepL.com/Translator (free version)
 Character sheet template(Citation:クトゥルフ神話TRPGやろうずwiki)
+![image](https://dreamyaziumarand.sakura.ne.jp/cthulhu/kaihatuyou.jpg)
