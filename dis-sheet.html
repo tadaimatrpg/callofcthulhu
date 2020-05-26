@@ -1,0 +1,17 @@
+<form class="{{cssClass}}" autocomplete="off">
+    <header class="sheet-header">
+        <div class="header-fields">
+            <div class="resources grid grid-2col">
+                <div class="resource flex-group-center">
+                    <label for="data.dis" class="resource-label">dice decision pot</label>
+                    <div class="resource-content flexrow flex-center flex-between"><span>Bonuses & Penalties</span>
+                      <input type="text" name="data.bonus" value="{{data.dis.{{key}}.bonus}}"/>
+                      <span> / </span>
+                      <input type="text" name="data.skill" value="{{data.dis.{{key}}.skill}}"/><span>Skill</span>
+                    </div>
+            <span class="ability-mod rollable" data-roll="data.dis.{{key}}+@abilities.{{key}}.mod" data-label="{{key}}">{{numberFormat ability.mod decimals=0 sign=true}}</span>
+              </div>
+            </div>
+        </div>
+    </header>
+</form>
