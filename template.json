@@ -55,16 +55,10 @@
   }
 },
 "actor":{
-  "templates": ["act"],
-  "biography": "",
-      "attributes": {
-        "level": {
-          "value": 1
-        }
-      }
+  "templates": ["act"]
   },
-  "Item": {
-    "types": ["item", "feature", "spell"],
+   "Item":{
+    "types": ["item"],
     "templates": {
       "base": {
         "description": ""
@@ -78,15 +72,15 @@
       "capacity":"",
       "malfuncti":99
     },
-    "feature": {
-      "templates": ["base"]
-    },
-    "spell": {
+    "dis": {
       "templates": ["base"],
-      "spellLevel": 1
-     }
+      "dis":{
+      "bonus":"0",
+      "skill":"0"
+      }
+    }
   }
  }
 }
-   
+      
 

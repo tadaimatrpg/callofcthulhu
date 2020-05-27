@@ -17,9 +17,9 @@
   "gridUnits": "ft",
  "primaryTokenAttribute":"status",
   "secondaryTokenAttribute":"hps",
-  "url": "https://github.com/tadaimatrpg/FoundryVTT.Cthulhu/blob/master/system.json",
-  "manifest": "https://github.com/tadaimatrpg/FoundryVTT.Cthulhu",
-  "download": ""
+  "url": "https://dreamyaziumarand.sakura.ne.jp/callofcthulhu/",
+  "manifest": "https://dreamyaziumarand.sakura.ne.jp/callofcthulhu/run/system.json",
+  "download": "https://dreamyaziumarand.sakura.ne.jp/english/callofcthulhu.zip"
 }
 
 
