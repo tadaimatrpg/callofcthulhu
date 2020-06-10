@@ -1,16 +1,27 @@
 {
   "name": "callofcthulhu",
   "title": "CallofCthulhu(7thEd.)",
-  "description": "English translation！The game system I created to play CallofCthulhu (7thEd.) on FoundryVTT! ",
-  "version": "0.6.6",
+  "description": "The game system I created to play CallofCthulhu (7thEd.) on FoundryVTT!",
+  "version": "0.7.0",
   "author": "ただいま",
   "minimumCoreVersion":"0.5.5",
-  "compatibleCoreVersion": "0.6.0",
+  "compatibleCoreVersion": "0.6.2",
   "esmodules": ["callofcthulhu.js"],
   "styles": ["callofcthulhu.css"],
   "scripts": [],
   "packs": [],
-    "languages": [],
+    "languages": [
+      {
+        "lang": "en",
+        "name": "English",
+        "path": "lang/en.json"
+      },
+      {
+        "lang": "ja",
+        "name": "日本語",
+        "path": "lang/ja.json"
+      }
+    ],
   "socket": true,
   "initiative":"1d20",
   "gridDistance": 5,
@@ -18,7 +29,9 @@
  "primaryTokenAttribute":"status",
   "secondaryTokenAttribute":"hps",
   "url": "https://dreamyaziumarand.sakura.ne.jp/callofcthulhu/",
-  "manifest": "https://dreamyaziumarand.sakura.ne.jp/callofcthulhu/run/system.json",
-  "download": "https://dreamyaziumarand.sakura.ne.jp/english/callofcthulhu.zip"
+  "manifest": "https://dreamyaziumarand.sakura.ne.jp/callofcthulhu/run/master/system.json",
+  "download": "https://dreamyaziumarand.sakura.ne.jp/cthulhu/callofcthulhu.zip"
 }
+
+
 

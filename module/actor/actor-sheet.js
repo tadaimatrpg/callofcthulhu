@@ -1,3 +1,4 @@
+import { CallofCthulhu } from '../config.js'
 /**
  * Extend the basic ActorSheet with some very simple modifications
  * @extends {ActorSheet}
@@ -26,6 +27,7 @@ export class CallofCthulhuActorSheet extends ActorSheet {
     for (let attr of Object.values(data.data.attributes)) {
       attr.isCheckbox = attr.dtype === "Boolean";
     }
+    console.log(data.data.abilities)
     return data;
   }
 
@@ -79,7 +81,7 @@ setPosition(options={}) {
     // Grab any data associated with this control.
     const data = duplicate(header.dataset);
     // Initialize a default name.
-    const name = `New ${type.capitalize()}`;
+    const name = game.i18n.format(CallofCthulhu.NewItem, {itemType: type.capitalize()});
     // Prepare the item object.
     const itemData = {
       name: name,

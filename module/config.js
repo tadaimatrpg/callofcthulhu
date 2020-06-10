@@ -7,19 +7,20 @@ CallofCthulhu.abilities = {
   "Sanity": "CallofCthulhu.AbilitySanity",
   "Indef": "CallofCthulhu.AbilityIndef",
   "armor": "CallofCthulhu.Abilityarmor",
-  "Flesh_ward": "CallofCthulhu.AbilityFleshward",
+  "Flesh ward": "CallofCthulhu.AbilityFleshward",
   "DEX": "CallofCthulhu.AbilityDEX",
   "Move": "CallofCthulhu.AbilityMove",
   "Character_sheet": "CallofCthulhu.AbilityCharacter sheet",
   "Item": "CallofCthulhu.AbilityItem",
-  "name": "CallofCthulhu.AbilityItem"
+  "name": "CallofCthulhu.Abilityname"
 }
 
 CallofCthulhu.aitms = {
-    "malfuncti": "CallofCthulhu.aitmsmalfuncti",
-    "distance": "CallofCthulhu.aitmsdistance",
+    "Item Name": "CallofCthulhu.aitmsname",
+    "Malfuncti": "CallofCthulhu.aitmsmalfuncti",
+    "Distance": "CallofCthulhu.aitmsdistance",
     "RoF": "CallofCthulhu.aitmsRoF",
-    "capacity": "CallofCthulhu.aitmscapacity",
+    "Capacity": "CallofCthulhu.aitmscapacity",
     "Damage": "CallofCthulhu.aitmsFleshward",
     "Explanation": "CallofCthulhu.aitmsExplanation"
   }

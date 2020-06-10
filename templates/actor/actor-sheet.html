@@ -4,10 +4,10 @@
 <header class="sheet-header">
       <img class="profile-img" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="100" width="100"/>
       <div class="header-fields">
-          <h2 class="charname"><input name="name" type="text" value="{{actor.name}}" placeholder="Name"/></h2>
+          <h2 class="charname"><input name="name" type="text" value="{{actor.name}}" placeholder="{{localize 'CallofCthulhu.ActorName'}}"/></h2>
      <div class="resource grid grid-3col ">
               <div class="resource flex-group-center">
-                   <label for="data.health.value" class="resource-label">HP</label>
+                   <label for="data.health.value" class="resource-label">{{localize 'CallofCthulhu.AbilityHP'}}</label>
                  <div class="resource-content flexrow flex-center flex-between">
                     <input type="text" name="data.health.value" value="{{data.health.value}}" data-dtype="Number"/>
                     <span > / </span>
@@ -15,7 +15,7 @@
                 </div>
               </div> 
               <div class="resource flex-group-center">
-                  <label for="data.power.value" class="resource-label">MP</label>
+                  <label for="data.power.value" class="resource-label">{{localize 'CallofCthulhu.AbilityMP'}}</label>
                 <div class="resource-content flexrow flex-center flex-between">
                   <input type="text" name="data.power.value" value="{{data.power.value}}" data-dtype="Number"/>
                   <span> / </span>
@@ -23,7 +23,7 @@
               </div> 
             </div> 
               <div class="header-fields flex-group-center">
-                <label for="data.luck.value" class="resource-label">Luck </label>
+                <label for="data.luck.value" class="resource-label">{{localize 'CallofCthulhu.AbilityLuck'}}</label>
                 <div class="attribute-value left">
               <input name="data.luck.value" type="text" value="{{data.luck.value}}" data-dtype="Number">
             </div>    
@@ -31,7 +31,7 @@
               {{!-- Status setting --}}    
       <div class="abilities grid grid-3col">
           <div class="ability flexrow flex-group-center">
-            <label for="data.san.value" class="resource-label"><span class="ability-mod">Sanity</span></label>
+            <label for="data.san.value" class="resource-label"><span class="ability-mod">{{localize 'CallofCthulhu.AbilitySanity'}}</span></label>
             <div class="ability-content flexrow flex-center flex-between">
             <input name="data.san.value" type="text" value="{{data.san.value}}" data-dtype="Number"> 
             <span lass="ability-mod"> / </span>
@@ -39,23 +39,23 @@
           </div>
         </div>
              <div class="ability flexrow flex-group-center">
-              <label for="data.indete.value" class="resource-label"><span class="ability-mod">Indef</span></label>
+              <label for="data.indete.value" class="resource-label"><span class="ability-mod">{{localize 'CallofCthulhu.AbilityIndef'}}</span></label>
               <input name="data.indete.value" type="text" value="{{data.indete.value}}" data-dtype="Number">
             </div>
              <div class="ability flexrow flex-group-center">
-              <label for="data.armor.max" class="resource-label"><span class="ability-mod">armor</span></label>
+              <label for="data.armor.max" class="resource-label"><span class="ability-mod">{{localize 'CallofCthulhu.Abilityarmor'}}</span></label>
               <input name="data.armor.max" type="text" value="{{data.armor.max}}" data-dtype="Number">
              </div>   
               <div class="ability flexrow flex-group-center">
-                <label for="data.ward.max" class="resource-label"><span class="ability-mid">Flesh_ward</span></label>
+                <label for="data.ward.max" class="resource-label"><span class="ability-mid">{{localize 'CallofCthulhu.AbilityFleshward'}}</span></label>
                 <input name="data.ward.max" type="text" value="{{data.ward.max}}" data-dtype="Number">
               </div> 
               <div class="ability flexrow flex-group-center">
-                <label for="data.dex.max" class="resource-label"><span class="ability-mod">DEX</span></label>
+                <label for="data.dex.max" class="resource-label"><span class="ability-mod">{{localize 'CallofCthulhu.AbilityDEX'}}</span></label>
                 <input name="data.dex.max" type="text" value="{{data.dex.max}}" data-dtype="Number">
               </div>
             <div class="ability flexrow flex-group-center">
-              <label for="data.mov.max" class="resource-label"><span class="ability-mod">Move</span></label>
+              <label for="data.mov.max" class="resource-label"><span class="ability-mod">{{localize 'CallofCthulhu.AbilityMove'}}</span></label>
               <input name="data.mov.max" type="text" value="{{data.mov.max}}" data-dtype="Number">
             </div>
          </div>
@@ -64,8 +64,8 @@
 
     {{!-- Sheet Tab Navigation --}}
     <nav class="sheet-tabs tabs" data-group="primary">
-        <a class="item" data-tab="description">Character sheet</a>
-        <a class="item" data-tab="items">Item</a>
+        <a class="item" data-tab="description">{{localize 'CallofCthulhu.AbilityCharacter sheet'}}</a>
+        <a class="item" data-tab="items">{{localize 'CallofCthulhu.AbilityItem'}}</a>
     </nav>
 
     {{!-- Sheet Body --}}
@@ -81,7 +81,7 @@
             <ol class="items-list">
                 <li class="item flexrow item-header">
                   <div class="item-image"></div>
-                  <div class="item-name">Name</div>
+                  <div class="item-name">{{localize 'CallofCthulhu.Abilityname'}}</div>
                   <div class="item-controls">
                     <a class="item-control item-create" title="Create item" data-type="item"><i class="fas fa-plus"></i> Add item</a>
                   </div>
