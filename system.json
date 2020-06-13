@@ -3,7 +3,7 @@
   "title": "CallofCthulhu(7thEd.)",
   "description": "The game system I created to play CallofCthulhu (7thEd.) on FoundryVTT!",
   "version": "0.8.1",
-  "author": "‚½‚¾‚¢‚Ü",
+  "author": "ãŸã ã„ã¾",
   "minimumCoreVersion":"0.5.5",
   "compatibleCoreVersion": "0.6.2",
   "esmodules": ["callofcthulhu.js"],
@@ -35,7 +35,7 @@
       },
       {
         "lang": "ja",
-        "name": "“ú–{Œê",
+        "name": "â€œÃºâ€“{Å’Ãª",
         "path": "lang/ja.json"
       }
     ],
