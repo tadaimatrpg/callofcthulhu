@@ -45,7 +45,7 @@
   "gridUnits": "ft",
  "primaryTokenAttribute":"status",
   "secondaryTokenAttribute":"hps",
-  "url": "https://dreamyaziumarand.sakura.ne.jp/callofcthulhu/",
+  "url": "https://github.com/tadaimatrpg/callofcthulhu",
   "manifest": "https://github.com/tadaimatrpg/callofcthulhu/blob/master/system.json",
   "download": "https://github.com/tadaimatrpg/callofcthulhu.git"
 }
