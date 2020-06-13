@@ -2,31 +2,14 @@
   "name": "callofcthulhu",
   "title": "CallofCthulhu(7thEd.)",
   "description": "The game system I created to play CallofCthulhu (7thEd.) on FoundryVTT!",
-  "version": "0.8.1",
+  "version": "0.7.0",
   "author": "ただいま",
   "minimumCoreVersion":"0.5.5",
   "compatibleCoreVersion": "0.6.2",
   "esmodules": ["callofcthulhu.js"],
   "styles": ["callofcthulhu.css"],
   "scripts": [],
-  "packs": [
-    {
-      "name": "character",
-      "label": "character",
-      "system": "callofcthulhu",
-      "module": "callofcthulhu",
-      "path": "packs/character.db",
-      "entity": "Actor"
-    },
-    {
-      "name": "items",
-      "label": "Items",
-      "system": "mysystem",
-      "module": "mysystem",
-      "path": "packs/items.db",
-      "entity": "Item"
-    }
-  ],
+  "packs": [],
     "languages": [
       {
         "lang": "en",
@@ -45,9 +28,9 @@
   "gridUnits": "ft",
  "primaryTokenAttribute":"status",
   "secondaryTokenAttribute":"hps",
-  "url": "https://github.com/tadaimatrpg/callofcthulhu",
-  "manifest": "https://github.com/tadaimatrpg/callofcthulhu/blob/master/system.json",
-  "download": "https://github.com/tadaimatrpg/callofcthulhu/archive/master.zip"
+  "url": "https://dreamyaziumarand.sakura.ne.jp/callofcthulhu/",
+  "manifest": "https://dreamyaziumarand.sakura.ne.jp/callofcthulhu/run/master/system.json",
+  "download": "https://dreamyaziumarand.sakura.ne.jp/cthulhu/callofcthulhu.zip"
 }
 
 
