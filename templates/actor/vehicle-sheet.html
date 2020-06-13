@@ -1,0 +1,40 @@
+<form class="{{cssClass}} flexcol" autocomplete="off">
+
+  {{!-- status --}}
+<header class="header">
+      <img class="profile-img" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="100" width="100"/>
+<div class="header-fields">
+          <h2 class="charname"><input name="name" type="text" value="{{actor.name}}" placeholder="{{localize 'CallofCthulhu.VehicleName'}}"/></h2>
+     <div class="resource grid grid-3col ">
+              <div class="resource flex-group-center">
+                   <label for="data.health.value" class="resource-label">{{localize 'CallofCthulhu.vehicleBuild'}}</label>
+                    <input type="text" name="data.health.max" value="{{data.health.max}}" data-dtype="Number"/>
+              </div> 
+              <div class="resource flex-group-center">
+                <label for="data.mov.max" class="resource-label"><span class="ability-mod">{{localize 'CallofCthulhu.vehicleMove'}}</span></label>
+                <input name="data.mov.max" type="text" value="{{data.mov.max}}" data-dtype="Number">
+            </div> 
+              <div class="header-fields flex-group-center">
+                <label for="data.armor.max" class="resource-label">{{localize 'CallofCthulhu.vehiclearmor'}}</label>
+                <div class="attribute-value left">
+                <input name="data.armor.max" type="text" value="{{data.armor.max}}" data-dtype="Number">
+            </div>    
+      </div> 
+    </div> 
+</header>
+
+    {{!-- Sheet Tab Navigation --}}
+    <nav class="sheet-tabs tabs" data-group="primary">
+        <a class="item" data-tab="description">{{localize 'CallofCthulhu.vehicleInformation'}}</a>
+    </nav>
+
+    {{!-- Sheet Body --}}
+    <section class="sheet-body">
+
+        {{!-- Biography Tab --}}
+        <div class="tab biography" data-group="primary" data-tab="description">
+            {{editor content=data.biography target="data.biography" button=true owner=owner editable=editable}}
+        </div>
+    </section>
+</form>
+

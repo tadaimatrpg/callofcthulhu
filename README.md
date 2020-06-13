@@ -1,15 +1,13 @@
 # CallofCthulhu(7thEd.) System  
-This system is  
-https://gitlab.com/asacolips-projects/foundry-mods/foundryvtt-system-tutorial/-/tree/master @ Asacolips  
-based (Boilerplate System).  
+This system is based [Boilerplate System](https://gitlab.com/asacolips-projects/foundry-mods/foundryvtt-system-tutorial/-/blob/master/pages/01-getting-started.md) @ Asacolips.  
+And we built the scaffolding for the system using [Yeoman](https://yeoman.io/).  
 This is a system for the [Foundry Virtual Tabletop](http://foundryvtt.com).  
 
+
 # Install  
-This is a part of the source that is under development and there is no   
-point in downloading it here.  
-https://dreamyaziumarand.sakura.ne.jp/callofcthulhu/run/master/system.json  
-It is described in Foundry Virtual Tabletop by reading system.josn written in the URL or  
-putting it in the system file.  
+It is described in Foundry Virtual Tabletop by reading system.josn written in the URL  
+https://github.com/tadaimatrpg/callofcthulhu/blob/master/system.json
+or putting it in the system file.  
 
 # About specifications and game system  
 This system assumes you have a rulebook.  

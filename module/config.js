@@ -6,13 +6,20 @@ CallofCthulhu.abilities = {
   "Luck": "CallofCthulhu.AbilityLuck",
   "Sanity": "CallofCthulhu.AbilitySanity",
   "Indef": "CallofCthulhu.AbilityIndef",
-  "armor": "CallofCthulhu.Abilityarmor",
+  "Armor": "CallofCthulhu.Abilityarmor",
   "Flesh ward": "CallofCthulhu.AbilityFleshward",
   "DEX": "CallofCthulhu.AbilityDEX",
   "Move": "CallofCthulhu.AbilityMove",
   "Character_sheet": "CallofCthulhu.AbilityCharacter sheet",
   "Item": "CallofCthulhu.AbilityItem",
   "name": "CallofCthulhu.Abilityname"
+}
+
+CallofCthulhu.vehicle = {
+  "Build": "CallofCthulhu.vehicleBuild",
+  "Move": "CallofCthulhu.vehicleMove",
+  "Armor": "CallofCthulhu.vehiclearmor",
+  "Information": "CallofCthulhu.vehicleInformation"
 }
 
 CallofCthulhu.aitms = {

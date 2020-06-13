@@ -1,6 +1,6 @@
 {
   "Actor": {
-    "types": ["actor"],
+    "types": ["actor","npc","vehicle"],
     "templates":{    
       "background": {
       "biography": "",
@@ -57,6 +57,12 @@
 "actor":{
   "templates": ["act"]
   },
+  "npc":{
+    "templates": ["act"]
+    },
+    "vehicle":{
+      "templates": ["act"]
+      },
    "Item":{
     "types": ["item"],
     "templates": {

@@ -1,5 +1,5 @@
 {
-  "name": "CallofCthulhu",
+  "name": "callofcthulhu",
   "version": "1.0.0",
   "description": "CSS compiler for the CallofCthulhu(7thEd.) system",
   "scripts": {
