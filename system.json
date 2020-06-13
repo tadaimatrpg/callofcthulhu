@@ -9,7 +9,24 @@
   "esmodules": ["callofcthulhu.js"],
   "styles": ["callofcthulhu.css"],
   "scripts": [],
-  "packs": [],
+  "packs": [
+    {
+      "name": "character",
+      "label": "character",
+      "system": "callofcthulhu",
+      "module": "callofcthulhu",
+      "path": "packs/character.db",
+      "entity": "Actor"
+    },
+    {
+      "name": "items",
+      "label": "Items",
+      "system": "mysystem",
+      "module": "mysystem",
+      "path": "packs/items.db",
+      "entity": "Item"
+    }
+  ],
     "languages": [
       {
         "lang": "en",
