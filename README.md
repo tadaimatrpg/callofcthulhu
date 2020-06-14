@@ -14,7 +14,7 @@ This system assumes you have a rulebook.
 The system is made very simple, and as anyone who has played Call of Cthulhu for  
 many years knows,this game is very easy to lose.  
 In the campaign being sold on Chaosium, the Shadows of Yog-Sothoth scenario loses over 10 character sheets.  
-And while out of print in Japan, "ï¿½ï¿½ï¿½ï¿½ï¿½Ì“Vï¿½g" has over 20 lost character sheets.  
+And while out of print in Japan, "‰©¨‚Ì“Vg" has over 20 lost character sheets.  
 For this reason, this system uses the text method.  
 Enter only the status you need in 7thED, and then add your skills by rolling a die on  
 the template sheet that comes with this file.  
@@ -35,5 +35,5 @@ However, I like this game very much.
 It's important for everyone to enjoy playing the game.  
 
 Translated with www.DeepL.com/Translator (free version)  
-Character sheet template(Citation:ï¿½Nï¿½gï¿½Dï¿½ï¿½ï¿½tï¿½_ï¿½bTRPGï¿½ï¿½ë‚¤ï¿½ï¿½wiki)  
+Character sheet template(Citation:ƒNƒgƒDƒ‹ƒt_˜bTRPG‚â‚ë‚¤‚¸wiki)  
 ![image](https://dreamyaziumarand.sakura.ne.jp/cthulhu/kaihatuyou.jpg)
