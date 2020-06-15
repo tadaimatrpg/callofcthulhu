@@ -13,7 +13,7 @@
   ],
   "author": "ただいま",
   "license": "MIT",
-  "initiative":"1d20"
+  "initiative":"1d20",
   "private": true,
   "dependencies": {
     "gulp": "^4.0.2",
