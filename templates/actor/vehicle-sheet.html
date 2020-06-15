@@ -7,9 +7,13 @@
           <h2 class="charname"><input name="name" type="text" value="{{actor.name}}" placeholder="{{localize 'CallofCthulhu.VehicleName'}}"/></h2>
      <div class="resource grid grid-3col ">
               <div class="resource flex-group-center">
-                   <label for="data.health.value" class="resource-label">{{localize 'CallofCthulhu.vehicleBuild'}}</label>
-                    <input type="text" name="data.health.max" value="{{data.health.max}}" data-dtype="Number"/>
-              </div> 
+                <label for="data.health.value" class="resource-label">{{localize 'CallofCthulhu.vehicleBuild'}}</label>
+              <div class="resource-content flexrow flex-center flex-between">
+                 <input type="text" name="data.health.value" value="{{data.health.value}}" data-dtype="Number"/>
+                 <span > / </span>
+                 <input type="text" name="data.health.max" value="{{data.health.max}}" data-dtype="Number"/>
+             </div>
+          </div>
               <div class="resource flex-group-center">
                 <label for="data.mov.max" class="resource-label"><span class="ability-mod">{{localize 'CallofCthulhu.vehicleMove'}}</span></label>
                 <input name="data.mov.max" type="text" value="{{data.mov.max}}" data-dtype="Number">
