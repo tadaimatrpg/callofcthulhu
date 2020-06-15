@@ -17,8 +17,8 @@ In the campaign being sold on Chaosium, the Shadows of Yog-Sothoth scenario lose
 And while out of print in Japan, "â©ç®ÇÃìVég" has over 20 lost character sheets.  
 For this reason, this system uses the text method.  
 Enter only the status you need in 7thED, and then add your skills by rolling a die on  
-the template sheet that comes with this file.  
-I can create a character sheet on the fly and copy and paste it with text.  
+Open the JournalEntry "template" in the Compendium and the "Character sheet template".  
+Just copy and paste it into the character sheet.  
 This system is different from other systems, and as I mentioned earlier, it is simple.  
 It's all about making sure you have no problems using any of the supplements.  
 You just need to add the necessary skills, etc., in the text.  
