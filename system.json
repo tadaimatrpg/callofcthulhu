@@ -2,7 +2,7 @@
   "name": "callofcthulhu",
   "title": "CallofCthulhu(7thEd.)",
   "description": "The game system I created to play CallofCthulhu (7thEd.) on FoundryVTT!",
-  "version": "0.9.4",
+  "version": "0.9.9",
   "author": "ただいま",
   "minimumCoreVersion":"0.5.5",
   "compatibleCoreVersion": "0.6.2",
@@ -21,11 +21,27 @@
     {
       "name": "items",
       "label": "Items",
-      "system": "mysystem",
-      "module": "mysystem",
+      "system": "callofcthulhu",
+      "module": "callofcthulhu",
       "path": "packs/items.db",
       "entity": "Item"
-    }
+    },
+    {
+      "name": "journalentry",
+      "label": "journalentry",
+      "system": "callofcthulhu",
+      "module": "callofcthulhu",
+      "path": "packs/journalentry.db",
+      "entity": "JournalEntry"
+    },
+    {
+    "name": "template",
+    "label": "template",
+    "system": "callofcthulhu",
+    "module": "callofcthulhu",
+    "path": "packs/template.db",
+    "entity": "JournalEntry"
+  }
   ],
     "languages": [
       {
