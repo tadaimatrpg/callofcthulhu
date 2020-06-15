@@ -6,7 +6,7 @@ This is a system for the [Foundry Virtual Tabletop](http://foundryvtt.com).
 
 # Install  
 It is described in Foundry Virtual Tabletop by reading system.josn written in the URL  
-https://dreamyaziumarand.sakura.ne.jp/callofcthulhu/run/master/system.json
+https://raw.githubusercontent.com/tadaimatrpg/callofcthulhu/master/system.json  
 or putting it in the system file.  
 
 # About specifications and game system  
