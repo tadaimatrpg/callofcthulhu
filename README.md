@@ -2,6 +2,10 @@
 This system is based [Boilerplate System](https://gitlab.com/asacolips-projects/foundry-mods/foundryvtt-system-tutorial/-/blob/master/pages/01-getting-started.md) @ Asacolips.  
 And we built the scaffolding for the system using [Yeoman](https://yeoman.io/).  
 This is a system for the [Foundry Virtual Tabletop](http://foundryvtt.com).  
+This game does not provide a rulebook or other data in accordance with  
+Chaosium [Fan-Use and Licensing](https://www.chaosium.com/fan-use-and-licensing-q-a/).  
+(The data used is limited to Free Quick-Start.)  
+This is a game to be played with a rulebook in hand.
 
 
 # Install  
@@ -22,10 +26,10 @@ Just copy and paste it into the character sheet.
 This system is different from other systems, and as I mentioned earlier, it is simple.  
 It's all about making sure you have no problems using any of the supplements.  
 You just need to add the necessary skills, etc., in the text.  
-Of course, you can register official magic items (artifacts), but it's best not to do that.  
-The magic item in "Different Worlds #45".  
-I won't go into details, but you can accumulate 1d100 Power per day to serve as you like,  
-and you can memorize all the spells.
+When doing combat, it refers to DEX, which can be notated by making a die roll.
+The VEHICLE that comes up in character selection can be used in a variety of ways,  
+including as an obstacle,  
+vehicle, or even as a MAP piece for use in the campaign.  
 As stated in 7thED, KP is free to play the game. That's why this system is so 
 simple and allows you to create characters right away and be free to do whatever you want.
 
