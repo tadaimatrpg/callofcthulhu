@@ -29,4 +29,4 @@ It's important for everyone to enjoy playing the game.
 
 Translated with www.DeepL.com/Translator (free version)  
 Character sheet template(Citation:クトゥルフ神話TRPGやろうずwiki)  
-![image](https://dreamyaziumarand.sakura.ne.jp/cthulhu/kaihatuyou.jpg)
+![image](https://github.com/tadaimatrpg/tadaima/blob/master/kaihatuyou.jpg)
