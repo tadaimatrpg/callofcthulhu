@@ -7,6 +7,12 @@ Chaosium [Fan-Use and Licensing](https://www.chaosium.com/fan-use-and-licensing-
 (The data used is limited to Free Quick-Start.)  
 This is a game to be played with a rulebook in hand.
 
+This project uses trademarks and/or copyrights owned by Chaosium Inc/Moon Design Publications LLC, 
+ which are used under Chaosium IncÅfs Fan Material Policy. 
+We are expressly prohibited from charging you to use or access this content.  
+This project is not published, endorsed, or specifically approved by Chaosium Inc.  
+For more information about Chaosium IncÅfs products, 
+please visit [www.chaosium.com.](https://www.chaosium.com/)"  
 
 # Install  
 Install this throught the system installer using the following manifest:
@@ -29,4 +35,4 @@ It's important for everyone to enjoy playing the game.
 
 Translated with www.DeepL.com/Translator (free version)  
 Character sheet template(Citation:ÉNÉgÉDÉãÉtê_òbTRPGÇ‚ÇÎÇ§Ç∏wiki)  
-![image](https://dreamyaziumarand.sakura.ne.jp/cthulhu/kaihatuyou.jpg)
+![image](https://github.com/tadaimatrpg/tadaima/blob/master/kaihatuyou.jpg)
