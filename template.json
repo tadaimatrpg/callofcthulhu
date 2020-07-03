@@ -3,11 +3,11 @@
     "types": ["actor","npc","vehicle"],
     "templates":{    
       "background": {
-      "description": "",
+      "biography": "",
       "hairColor": "blue"
     },   
     "act":{
-      "description": "",
+      "biography": "",
       "health": {
         "value": 10,
         "min": 0,
@@ -73,7 +73,7 @@
         "distance": "",
         "capacity":"",
         "malfuncti":"99",
-        "description": ""
+        "biography": ""
       }
     },
     "item": {
