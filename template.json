@@ -3,10 +3,11 @@
     "types": ["actor","npc","vehicle"],
     "templates":{    
       "background": {
-      "biography": "",
+      "description": "",
       "hairColor": "blue"
     },   
     "act":{
+      "description": "",
       "health": {
         "value": 10,
         "min": 0,
@@ -67,23 +68,16 @@
     "types": ["item"],
     "templates": {
       "base": {
+        "damage": "",
+        "rof":"",
+        "distance": "",
+        "capacity":"",
+        "malfuncti":"99",
         "description": ""
       }
     },
     "item": {
-      "templates": ["base"],
-      "damage": "",
-      "rof":"",
-      "distance": "",
-      "capacity":"",
-      "malfuncti":99
-    },
-    "dis": {
-      "templates": ["base"],
-      "dis":{
-      "bonus":"0",
-      "skill":"0"
-      }
+      "templates": ["base"]
     }
   }
  }
