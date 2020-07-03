@@ -2,7 +2,7 @@
   "name": "callofcthulhu",
   "title": "CallofCthulhu(7thEd.)",
   "description": "The game system I created to play CallofCthulhu (7thEd.) on FoundryVTT!",
-  "version": "0.9.12",
+  "version": "0.9.11",
   "author": "ただいま",
   "minimumCoreVersion":"0.5.5",
   "compatibleCoreVersion": "0.6.4",
