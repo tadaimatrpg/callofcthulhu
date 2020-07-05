@@ -5,26 +5,26 @@
             <h1 class="charname"><input name="name" type="text" value="{{item.name}}" placeholder="{{localize 'CallofCthulhu.aitmsname'}}"/></h1>
             <div class="resource grid grid-2col">
             <div class="resource flex-group-center">
-            <span class="ability-mod">{{localize 'CallofCthulhu.aitmsmalfuncti'}}</span>
+              <label for="data.malfuncti" class="resource-label"></label><span class="ability-mod">{{localize 'CallofCthulhu.aitmsmalfuncti'}}</span></label>
             <input type="text" name="data.malfuncti" value="{{data.malfuncti}}" data-dtype="String"/>
                 </div> 
               <div class="resource flex-group-center">
-                <span class="ability-mod">{{localize 'CallofCthulhu.aitmsdistance'}}</span>
+                <label for="data.distance" class="resource-label"></label><span class="ability-mod">{{localize 'CallofCthulhu.aitmsdistance'}}</span></label>
                   <input type="text" name="data.distance" value="{{data.distance}}" data-dtype="String"/>
                </div>
             </div> 
             <div class="resource grid grid-2col">
               <div class="resource flex-group-center">
-                　　<span class="ability-mod">{{localize 'CallofCthulhu.aitmsRoF'}}</span>
+                　　<label for="data.rof" class="resource-label"></label><span class="ability-mod">{{localize 'CallofCthulhu.aitmsRoF'}}</span></label>
                   <input type="text" name="data.rof" value="{{data.rof}}" data-dtype="String"/>
                </div>  
                <div class="resource flex-group-center">
-             　　　<span class="ability-mod">{{localize 'CallofCthulhu.aitmscapacity'}}</span>
+                　　<label for="data.capacity" class="resource-label"><span class="ability-mod">{{localize 'CallofCthulhu.aitmscapacity'}}</span></label>
             　　　 <input type="text" name="data.capacity" value="{{data.capacity}}" data-dtype="String"/>
         　　    </div>  
               </div>
              <div class="resource flex-group-center">
-                　<span class="ability-mod">{{localize 'CallofCthulhu.aitmsFleshward'}}</span>
+              　<label for="data.damage" class="resource-label"><span class="ability-mod">{{localize 'CallofCthulhu.aitmsFleshward'}}</span></label>
                   <input type="text" name="data.damage" value="{{data.damage}}" data-dtype="String"/>
               </div>
             </div>
@@ -33,15 +33,15 @@
 
     {{!-- Sheet Tab Navigation --}}
     <nav class="sheet-tabs tabs" data-group="primary">
-        <a class="item" data-tab="description">{{localize 'CallofCthulhu.aitmsExplanation'}}</a>
+      <a class="item" data-tab="description">{{localize 'CallofCthulhu.aitmsExplanation'}}</a>
     </nav>
 
     {{!-- Sheet Body --}}
     <section class="sheet-body">
 
         {{!-- Description Tab --}}
-        <div class="tab biography" data-group="primary" data-tab="description">
-          {{editor content=data.biography target="data.biography" button=true owner=owner editable=editable}}        
+        <div class="tab" data-group="primary" data-tab="description">
+          {{editor content=data.description target="data.description" button=true owner=owner editable=editable}}       
         </div>
     </section>
 </form>
