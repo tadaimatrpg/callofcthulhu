@@ -2,10 +2,6 @@
   "Actor": {
     "types": ["actor","npc","vehicle"],
     "templates":{    
-      "background": {
-      "biography": "",
-      "hairColor": "blue"
-    },   
     "act":{
       "biography": "",
       "health": {
@@ -52,7 +48,7 @@
       "value": 0,
         "min": 0,
         "max": 99
-  }
+    }
   }
 },
 "actor":{
@@ -63,7 +59,8 @@
     },
     "vehicle":{
       "templates": ["act"]
-      },
+      }
+  },
    "Item":{
     "types": ["item"],
     "templates": {
@@ -80,7 +77,6 @@
       "templates": ["base"]
     }
   }
- }
 }
       
 

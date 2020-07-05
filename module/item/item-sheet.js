@@ -7,7 +7,7 @@ export class CallofCthulhuItemSheet extends ItemSheet {
   /** @override */
 	static get defaultOptions() {
 	  return mergeObject(super.defaultOptions, {
-			classes: ["CallofCthulhu", "sheet", "item"],
+      classes: ["CallofCthulhu", "sheet", "item"],
 			width: 480,
 			height: 520,
       tabs: [{navSelector: ".sheet-tabs", contentSelector: ".sheet-body", initial: "description"}]
