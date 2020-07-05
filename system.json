@@ -2,7 +2,7 @@
   "name": "callofcthulhu",
   "title": "CallofCthulhu(7thEd.)",
   "description": "The game system I created to play CallofCthulhu (7thEd.) on FoundryVTT!",
-  "version": "0.9.12",
+  "version": "0.9.13",
   "author": "ただいま",
   "minimumCoreVersion":"0.5.5",
   "compatibleCoreVersion": "0.6.4",
@@ -63,5 +63,5 @@
   "secondaryTokenAttribute": "power",
   "url": "https://github.com/tadaimatrpg/callofcthulhu",
   "manifest": "https://raw.githubusercontent.com/tadaimatrpg/callofcthulhu/master/system.json",
-  "download": "https://github.com/tadaimatrpg/callofcthulhu/archive/master.zip"
+  "download": "https://github.com/tadaimatrpg/callofcthulhu.git"
 }

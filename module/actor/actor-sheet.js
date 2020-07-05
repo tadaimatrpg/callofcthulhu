@@ -89,38 +89,7 @@ setPosition(options={}) {
   const bodyHeight = position.height - 192;
   sheetBody.css("height", bodyHeight);
   return position;
-}
-
-// /**
-//    * Listen for click events on an attribute control to modify the composition of attributes in the sheet
-//    * @param {MouseEvent} event    The originating left click event
-//    * @private
-//    */
-//   async _onClickAttributeControl(event) {
-//     event.preventDefault();
-//     const a = event.currentTarget;
-//     const action = a.dataset.action;
-//     const attrs = this.object.data.data.attributes;
-//     const form = this.form;
-
-//     // Add new attribute
-//     if ( action === "create" ) {
-//       const nk = Object.keys(attrs).length + 1;
-//       let newKey = document.createElement("div");
-//       newKey.innerHTML = `<input type="text" name="data.attributes.attr${nk}.key"/>`; 
-//       newKey = newKey.children[0];
-//       form.appendChild(newKey);
-//       await this._onSubmit(event);
-//     }
-
-//     // Remove existing attribute
-//     else if ( action === "delete" ) {
-//       const li = a.closest(".attribute");
-//       li.parentElement.removeChild(li);
-//       await this._onSubmit(event);
-//     }
-//   }
-    /* -------------------------------------------- */
+  }
 
 }
  
