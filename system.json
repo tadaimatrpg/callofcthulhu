@@ -5,7 +5,7 @@
   "version": "0.9.13",
   "author": "ただいま",
   "minimumCoreVersion":"0.5.5",
-  "compatibleCoreVersion": "0.6.4",
+  "compatibleCoreVersion": "0.6.5",
   "esmodules": ["callofcthulhu.js"],
   "styles": ["callofcthulhu.css"],
   "scripts": [],
