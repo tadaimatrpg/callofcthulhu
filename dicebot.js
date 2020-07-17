@@ -13,8 +13,8 @@ Hooks.on("chatMessage", (content) => {
     const m = 0;
     const s = 0;
     const res = "Error";
-    let commands = content.match(rgx);
-    let command = commands[0];
+    let command = content.match(rgx);
+    // let command = commands[0];
    //Perform processing for each command.
    if(command === "/CC" || command === "/cc"){
     rgx = /(?:[0-9]+)/
