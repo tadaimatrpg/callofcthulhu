@@ -6,9 +6,9 @@
   "author": "ただいま",
   "minimumCoreVersion":"0.5.5",
   "compatibleCoreVersion": "0.6.5",
-  "esmodules": ["callofcthulhu.js"],
+  "esmodules": ["module/callofcthulhu.js"],
   "styles": ["callofcthulhu.css"],
-  "scripts": ["dicebot.js"],
+  "scripts": ["module/scripts/dicebot.js"],
   "packs": [
     {
       "name": "character",

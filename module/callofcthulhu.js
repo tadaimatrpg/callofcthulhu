@@ -1,9 +1,9 @@
 // Import Modules
-import { CallofCthulhuActor } from "./module/actor/actor.js";
-import { CallofCthulhuActorSheet } from "./module/actor/actor-sheet.js";
-import { CallofCthulhuVehicleSheet } from "./module/actor/vehicle-sheet.js";
-import { CallofCthulhuItem } from "./module/item/item.js";
-import { CallofCthulhuItemSheet } from "./module/item/item-sheet.js";
+import { CallofCthulhuActor } from "../module/actor/actor.js";
+import { CallofCthulhuActorSheet } from "../module/actor/actor-sheet.js";
+import { CallofCthulhuVehicleSheet } from "../module/actor/vehicle-sheet.js";
+import { CallofCthulhuItem } from "../module/item/item.js";
+import { CallofCthulhuItemSheet } from "../module/item/item-sheet.js";
 //
 Hooks.once('init',()  =>{
 
