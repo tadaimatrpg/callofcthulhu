@@ -7,7 +7,7 @@ Chaosium [Fan-Use and Licensing](https://www.chaosium.com/fan-use-and-licensing-
 (The data used is limited to Free Quick-Start.)  
 This is a game to be played with a rulebook in hand.
   
-#License Notice  
+# License Notice  
 This project uses trademarks and/or copyrights owned by Chaosium Inc/Moon Design Publications LLC, 
  which are used under Chaosium IncÅfs Fan Material Policy. 
 We are expressly prohibited from charging you to use or access this content.  
