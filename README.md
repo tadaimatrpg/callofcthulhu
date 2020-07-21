@@ -9,10 +9,10 @@ This is a game to be played with a rulebook in hand.
   
 # License Notice  
 This project uses trademarks and/or copyrights owned by Chaosium Inc/Moon Design Publications LLC, 
- which are used under Chaosium IncÅfs Fan Material Policy. 
+ which are used under Chaosium Inc‚Äôs Fan Material Policy. 
 We are expressly prohibited from charging you to use or access this content.  
 This project is not published, endorsed, or specifically approved by Chaosium Inc.  
-For more information about Chaosium IncÅfs products, 
+For more information about Chaosium Inc‚Äôs products, 
 please visit [www.chaosium.com.](https://www.chaosium.com/)"  
 
 # Install  
@@ -22,7 +22,7 @@ or by downloading the system and placing it in the systems directory.
 
 # About specifications and game system  
 Call of cthulhu 7e system created by Sandy Petersen in 1981 and revised by Mike Mason and Paul Fricker for the 7th edition released in 2015. Japanese version translated and released in Japan in 2020.
-Call of Cthulhu is a horror-themed roleplaying game based  on  the  writings  of  Howard  Phillips  Lovecraft.  Lovecraft penned a tremendous body of work during the 1920s and 1930s, concerning both horrors from beyond and from within. LovecraftÅfs most famous invention has become known as the Cthulhu Mythos, a series of stories sharing common plot elements such as certain mythical books  of  arcane  lore  and  alien  god-like  entities.  If  you  have not read any of his stories it is strongly recommend you do so. (Quote from quickstart guide)
+Call of Cthulhu is a horror-themed roleplaying game based  on  the  writings  of  Howard  Phillips  Lovecraft.  Lovecraft penned a tremendous body of work during the 1920s and 1930s, concerning both horrors from beyond and from within. Lovecraft‚Äôs most famous invention has become known as the Cthulhu Mythos, a series of stories sharing common plot elements such as certain mythical books  of  arcane  lore  and  alien  god-like  entities.  If  you  have not read any of his stories it is strongly recommend you do so. (Quote from quickstart guide)
 
 This system does not offer advanced automation, but assumes that you will copy/paste the contents of the template compendium located under the Character Sheet Template compendium.
 This is because Japan uses different kinds of supplements which change skill names and rules, thus this sheet was created for Japan audience use primarily, but feel free to use this english version if you please.
