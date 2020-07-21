@@ -8,7 +8,8 @@
   "compatibleCoreVersion": "0.6.5",
   "esmodules": ["module/callofcthulhu.js"],
   "styles": ["callofcthulhu.css"],
-  "scripts": [],
+  "scripts": ["module/chatmessage.js",
+              "module/scripts/dicebot.js"],
   "packs": [
     {
       "name": "character",
