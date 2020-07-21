@@ -34,6 +34,5 @@ Playing Call of Cthulhu is a horrible game that asks for immorality and commits 
 However, I like this game very much.  
 It's important for everyone to enjoy playing the game.  
 
-Translated with www.DeepL.com/Translator (free version)  
-Character sheet template(Citation:クトゥルフ神話TRPGやろうずwiki)  
+Translated with www.DeepL.com/Translator (free version)   
 ![image](https://github.com/tadaimatrpg/tadaima/blob/master/kaihatuyou.jpg)
