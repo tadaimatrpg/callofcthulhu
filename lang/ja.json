@@ -24,5 +24,12 @@
 "CallofCthulhu.aitmsRoF": "攻撃回数",
 "CallofCthulhu.aitmscapacity": "装弾数",
 "CallofCthulhu.aitmsFleshward": "ダメージ",
-"CallofCthulhu.aitmsExplanation": "説明"
+"CallofCthulhu.aitmsExplanation": "説明",
+"CallofCthulhu.dicebotCritical": "<h1>クリティカル</h1>",
+"CallofCthulhu.dicebotFumble": "<h1>ファンブル</h1>",
+"CallofCthulhu.dicebotExtreme":"<h1>イクストリーム成功</h1>",
+"CallofCthulhu.dicebotHard": "<h1>ハード成功</h1>",
+"CallofCthulhu.dicebotRegular": "<h1>成功</h1>",
+"CallofCthulhu.dicebotFail": "<h1>失敗</h1>",
+"CallofCthulhu.dicebotSkill": "技能値:"
 }

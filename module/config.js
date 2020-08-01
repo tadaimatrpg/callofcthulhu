@@ -31,3 +31,13 @@ CallofCthulhu.aitms = {
     "Damage": "CallofCthulhu.aitmsFleshward",
     "Explanation": "CallofCthulhu.aitmsExplanation"
   }
+
+  CallofCthulhu.dicebot = {
+    "<h1>CRITICAL</h1>": "CallofCthulhu.dicebotCritical",
+    "<h1>FUMBLE</h1>": "CallofCthulhu.dicebotFumble",
+    "<h1>EXTREME SUCCESS</h1>": "CallofCthulhu.dicebotExtreme",
+    "<h1>HARD SUCCESS</h1>": "CallofCthulhu.dicebotHard",
+    "<h1>REGULAR SUCCESS</h1>": "CallofCthulhu.dicebotRegular",
+    "<h1>FAIL</h1>": "CallofCthulhu.dicebotFail",
+    "Skill value:": "CallofCthulhu.dicebotSkill"
+  }

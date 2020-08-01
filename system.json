@@ -2,13 +2,13 @@
   "name": "callofcthulhu",
   "title": "CallofCthulhu(7thEd.)",
   "description": "The game system I created to play CallofCthulhu (7thEd.) on FoundryVTT!",
-  "version": "0.9.14",
+  "version": "1.0.0",
   "author": "ただいま",
-  "minimumCoreVersion":"0.5.5",
-  "compatibleCoreVersion": "0.6.5",
-  "esmodules": ["module/callofcthulhu.js"],
+  "minimumCoreVersion":"0.7.0",
+  "compatibleCoreVersion": "0.7.0",
+  "esmodules": ["module/callofcthulhu.js","module/dicebot.js"],
   "styles": ["callofcthulhu.css"],
-  "scripts": ["module/scripts/dicebot.js"],
+  "scripts": [],
   "packs": [
     {
       "name": "character",

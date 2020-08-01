@@ -24,5 +24,12 @@
 "CallofCthulhu.aitmsRoF": "RoF",
 "CallofCthulhu.aitmscapacity": "Capacity",
 "CallofCthulhu.aitmsFleshward": "Damage",
-"CallofCthulhu.aitmsExplanation": "Explanation"
+"CallofCthulhu.aitmsExplanation": "Explanation",
+"CallofCthulhu.dicebotCritical": "<h1>CRITICAL</h1>",
+"CallofCthulhu.dicebotFumble": "<h1>FUMBLE</h1>",
+"CallofCthulhu.dicebotExtreme":"<h1>EXTREME SUCCESS</h1>",
+"CallofCthulhu.dicebotHard": "<h1>HARD SUCCESS</h1>",
+"CallofCthulhu.dicebotRegular": "<h1>REGULAR SUCCESS</h1>",
+"CallofCthulhu.dicebotFail": "<h1>FAIL</h1>",
+"CallofCthulhu.dicebotSkill": "Skill value:"
 }
