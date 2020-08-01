@@ -28,7 +28,8 @@ This system does not offer advanced automation, but assumes that you will copy/p
 This is because Japan uses different kinds of supplements which change skill names and rules, thus this sheet was created for Japan audience use primarily, but feel free to use this english version if you please.
 
 Combat is tracked through order of DEX attribute. There's a vehicle sheet template aswell for your chasing needs.
-
+A DiceBot system is implemented in this system. If a skill value is entered after the command "/cc",  
+the system judges success or failure.  
 # Author's Boring Thoughts  
 Playing Call of Cthulhu is a horrible game that asks for immorality and commits blasphemy.  
 However, I like this game very much.  
