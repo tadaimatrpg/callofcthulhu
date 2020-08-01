@@ -4,23 +4,22 @@
  *[/CC or /CC(x)]Define a command to judge a normal dice (bonus penalty).
  *[/CBR] Command to define the decision on combination rolls.
 */
-Hooks.on("chatMessage", (content) => {
+Hooks.on("chatMessage", (html,content) => {
 
-
-    let r = new Roll("1d100"); //Normal Dice
-    let r2 = new Roll("1d10"); //r2 and r3 are used to determine bonus penalties
-    let r3 = new Roll("1d10");
-    CONFIG.Dice.rolls["CC"] = CC;
-    const rgx = /(\S+)/g;
+    let rgx;
+    rgx = /(\S+)/g;
+    let commands = content.match(rgx);
+    let command = commands[0];
     const m = 0;
     const s = 0;
     const res = "Error";
-    let command = content.match(rgx);
-    let commands = commands[0];
+    let r = new Roll("1d100"); //Normal Dice
+    let r2 = new Roll("1d10"); //r2 and r3 are used to determine bonus penalties
+    let r3 = new Roll("1d10");
    //Perform processing for each command.
    if(command === "/CC" || command === "/cc"){
     rgx = /(?:[0-9]+)/
-    m =  content.match(rgx);
+    m = rgx;
     r.roll();
     if(r === 1) res="CRITICAL";
     else if(r <= (m/5))  res="EXTREME SUCCESS ";
@@ -29,6 +28,6 @@ Hooks.on("chatMessage", (content) => {
     else if(r  > m) res="FAIL";
     else if(m  < 50){ if(r <= 96) res="FUMBLE"}
     else if(r === 100) res="FUMBLE"
-    toMesssge(r,res,true);
-   }
+    return res;
+    }
   });
