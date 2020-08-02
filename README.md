@@ -30,10 +30,12 @@ This is because Japan uses different kinds of supplements which change skill nam
 Combat is tracked through order of DEX attribute. There's a vehicle sheet template aswell for your chasing needs.
 A DiceBot system is implemented in this system. If a skill value is entered after the command "/cc",  
 the system judges success or failure.  
+And the combination command "/CBR" appeared.  
+Enter a skill value as "/CBR skill value, skill value" to see the combination.  
 # Author's Boring Thoughts  
 Playing Call of Cthulhu is a horrible game that asks for immorality and commits blasphemy.  
 However, I like this game very much.  
 It's important for everyone to enjoy playing the game.  
 
 Translated with www.DeepL.com/Translator (free version)   
-![image](https://github.com/tadaimatrpg/tadaima/blob/master/kaihatuyou.jpg)
+![image](https://raw.githubusercontent.com/tadaimatrpg/tadaima/master/kaihatuyou2.png)
