@@ -5,7 +5,7 @@
   "version": "1.2.0",
   "author": "ただいま",
   "minimumCoreVersion":"0.7.0",
-  "compatibleCoreVersion": "0.7.0",
+  "compatibleCoreVersion": "0.7.1",
   "esmodules": ["module/callofcthulhu.js","module/dicebot.js"],
   "styles": ["callofcthulhu.css"],
   "scripts": [],
