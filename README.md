@@ -30,6 +30,7 @@ This is because Japan uses different kinds of supplements which change skill nam
 Combat is tracked through order of DEX attribute. There's a vehicle sheet template aswell for your chasing needs.
 A DiceBot system is implemented in this system. If a skill value is entered after the command "/cc",  
 the system judges success or failure.  
+The "/cc-2" to "/cc2" bonus and penalty dice are now possible.  
 And the combination command "/CBR" appeared.  
 Enter a skill value as "/CBR skill value, skill value" to see the combination.  
 # Author's Boring Thoughts  
