@@ -74,14 +74,14 @@ Hooks.on("chatMessage", (html,content) => {
         r3.roll();
 
         //Put the result of the die into s as a number rather than an object.
-        s2 = r3.total;
-        s3 = r4.total;
+        s2 = r2.total;
+        s3 = r3.total;
 
         //If the number is 100, it is automatically set to 0
         if(s3 >= 100) s3 = 0;
         if(s2 >= 100) s2 = 0;
 
-        if(s2 > s3) s3 = s2;
+        if(s2 < s3) s3 = s2;
 
         //Dice roll for 10-sided die numbers. It is then quantified.
         r5 = new Roll("1d10 + @pot",{pot:s3});
