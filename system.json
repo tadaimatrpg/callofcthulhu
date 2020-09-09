@@ -1,8 +1,8 @@
 {
   "name": "callofcthulhu",
   "title": "CallofCthulhu(7thEd.)",
-  "description": "For Asia.The game system I created to play CallofCthulhu (7thEd.) on FoundryVTT!",
-  "version": "1.2.1",
+  "description": "for use in Asia.オンセ工房(FVTT)用！新クトゥルフ神話TRPG用のシステム！日本の外部サイトを使用したシステム！",
+  "version": "1.2.2",
   "author": "ただいま",
   "minimumCoreVersion":"0.7.0",
   "compatibleCoreVersion": "0.7.2",
