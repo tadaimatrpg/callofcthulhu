@@ -1,4 +1,4 @@
-# CallofCthulhu(7thEd.) System  
+# CallofCthulhu(7thEd.Unofficial) System  
 This system is based [Boilerplate System](https://gitlab.com/asacolips-projects/foundry-mods/foundryvtt-system-tutorial/-/blob/master/pages/01-getting-started.md) @ Asacolips.  
 And I built the scaffolding for the system using [Yeoman](https://yeoman.io/).  
 This is a system for the [Foundry Virtual Tabletop](http://foundryvtt.com).  
