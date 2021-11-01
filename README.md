@@ -6,6 +6,8 @@ This game does not provide a rulebook or other data in accordance with
 Chaosium [Fan-Use and Licensing](https://www.chaosium.com/fan-use-and-licensing-q-a/).  
 (The data used is limited to Free Quick-Start.)  
 This is a game to be played with a rulebook in hand.
+:November 2, 2021
+The release of this system is over.
   
 # License Notice  
 This project uses trademarks and/or copyrights owned by Chaosium Inc/Moon Design Publications LLC, 
@@ -16,9 +18,8 @@ For more information about Chaosium Inc’s products,
 please visit [www.chaosium.com.](https://www.chaosium.com/)"  
 
 # Install  
-Install this throught the system installer using the following manifest:
-https://raw.githubusercontent.com/tadaimatrpg/callofcthulhu/master/system.json  
-or by downloading the system and placing it in the systems directory.  
+November 2, 2021
+This system is not available because we have discontinued its development.
 
 # About specifications and game system  
 Call of cthulhu 7e system created by Sandy Petersen in 1981 and revised by Mike Mason and Paul Fricker for the 7th edition released in 2015. Japanese version translated and released in Japan in 2020.
